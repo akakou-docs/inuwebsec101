@@ -17,7 +17,7 @@ permalink: /webapp/webpage/
 
 ## 仕組み
 
-私達はサーバというコンピュータから送られてきた、プログラムのファイル（主に HTML、CSS、Javascript）をブラウザ上で実行し、結果を画面に出力することで、ウェブページを見ることができています。
+私達はサーバというコンピュータから送られてきた、プログラムのファイル（主に HTML、CSS、JavaScript）をブラウザ上で実行し、結果を画面に出力することで、ウェブページを見ることができています。
 
 ![]({{ '/assets/images/browser.png' | relative_url }})
 
@@ -47,10 +47,10 @@ HTML(HyperText Markup Language)とは、ウェブページを作るための言�
 </html>
 ```
 
-## Javascript
+## JavaScript
 
 HTML によって表されるウェブページに動的な変更を加えるために利用される言語です。
-例えば、ボタンを押したときに画面の一部が変更されるなどの処理は、Javascript で記述されることが多いです。
+例えば、ボタンを押したときに画面の一部が変更されるなどの処理は、JavaScript で記述されることが多いです。
 
 #### コード 2. 動的に HTML を動かす例
 
@@ -66,7 +66,7 @@ HTML によって表されるウェブページに動的な変更を加えるた
     <meta charset="UTF-8" />
     <title>Hello</title>
 
-    <!-- Javascriptのファイルを読み込んでいる -->
+    <!-- JavaScriptのファイルを読み込んでいる -->
     <script src="/script.js"></script>
   </head>
   <body>
@@ -101,8 +101,8 @@ CSS（Cascading Style Sheets）は、Web ページのスタイル（見た目）
 
 ## ブラウザ
 
-HTML、CSS、Javascript を実行し、画面に結果を出力したりするプログラムであり、例としては Chrome、Firefox、Edge などが挙げられます。
+HTML、CSS、JavaScript を実行し、画面に結果を出力したりするプログラムであり、例としては Chrome、Firefox、Edge などが挙げられます。
 
 ## 備考
 
-※ 特に[セキュアプログラミングの章（未公開）]()、[脆弱性の章（未公開）]()を学びたい方は、これらの言語（HTML、CSS、Javascript）をよく理解しておくと良いと思います。個人的なおすすめは、[Progate](https://prog-8.com/languages/html)です。
+※ 特に[セキュアプログラミングの章（未公開）]()、[脆弱性の章（未公開）]()を学びたい方は、これらの言語（HTML、CSS、JavaScript）をよく理解しておくと良いと思います。個人的なおすすめは、[Progate](https://prog-8.com/languages/html)です。
